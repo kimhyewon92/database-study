@@ -78,10 +78,10 @@ USE mapdonalds;
 
 -- 테이블 생성
 -- CREATE TABLE 테이블명 (
--- 	컬럼명1 자료형1,
---     컬럼명2 자료형2,
---     ...
---     PRIMARY KEY (컬럼명)
+--  컬럼명1 자료형1,
+--  컬럼명2 자료형2,
+--  ...
+--  PRIMARY KEY (컬럼명)
 -- );
 
 CREATE TABLE burgers(
@@ -94,12 +94,12 @@ CREATE TABLE burgers(
     protein INTEGER,-- 단백질량(정수: g)
     PRIMARY KEY (id) -- 기본키 지정: id
 );
--- 기본키: 레코드(row)를 대burgers표하는 컬럼(예: 사람의 주민등록번호)
+-- 기본키: 레코드(row)를 대표하는 컬럼(예: 사람의 주민등록번호)
 -- 테이블에 저장된 모든 버거를 구분하기 위한 컬럼 
 -- 중복되지 않은 값을 가짐 
 
 -- 테이블 구조 조회
--- DESC 테이블명; describe
+-- DESC 테이블명; describe 
 DESC burgers; -- burgers 테이블의 구조를 설명해줘
 -- Field: 테이블의 컬럼
 -- Type: 컬럼의 자료형(int는 INTEGER의 별칭)
